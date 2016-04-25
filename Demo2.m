@@ -27,7 +27,7 @@
 // 创建页面内控件的地方。
 - (void)uxy_createViews
 {
-    
+    NSLog(@"doLogin------------");
 }
 
 // 创建页面内控件事件的地方
