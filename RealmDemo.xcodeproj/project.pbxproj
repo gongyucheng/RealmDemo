@@ -17,6 +17,8 @@
 		4E3969BF1CC7417700B0A1EF /* RealmDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3969BE1CC7417700B0A1EF /* RealmDemoTests.m */; };
 		4E3969CA1CC7417700B0A1EF /* RealmDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3969C91CC7417700B0A1EF /* RealmDemoUITests.m */; };
 		4E4600711CC921C7007E9300 /* UserPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4600701CC921C7007E9300 /* UserPhoto.m */; };
+		4EB5235E1CCDF61D00B451DD /* Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB5235D1CCDF61D00B451DD /* Demo.m */; };
+		4EB523611CCDF66700B451DD /* Demo2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB523601CCDF66700B451DD /* Demo2.m */; };
 		4EBD70881CC7B6FB006173D8 /* Personl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBD70871CC7B6FB006173D8 /* Personl.m */; };
 		4EBD708B1CC7B737006173D8 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBD708A1CC7B737006173D8 /* Dog.m */; };
 /* End PBXBuildFile section */
@@ -57,6 +59,10 @@
 		4E3969CB1CC7417700B0A1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E46006F1CC921C7007E9300 /* UserPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPhoto.h; sourceTree = "<group>"; };
 		4E4600701CC921C7007E9300 /* UserPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPhoto.m; sourceTree = "<group>"; };
+		4EB5235C1CCDF61D00B451DD /* Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo.h; sourceTree = "<group>"; };
+		4EB5235D1CCDF61D00B451DD /* Demo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo.m; sourceTree = "<group>"; };
+		4EB5235F1CCDF66700B451DD /* Demo2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2.h; sourceTree = "<group>"; };
+		4EB523601CCDF66700B451DD /* Demo2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2.m; sourceTree = "<group>"; };
 		4EBD70821CC7B535006173D8 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		4EBD70841CC7B596006173D8 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		4EBD70861CC7B6FB006173D8 /* Personl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Personl.h; sourceTree = "<group>"; };
@@ -98,6 +104,10 @@
 		4E3969981CC7417700B0A1EF = {
 			isa = PBXGroup;
 			children = (
+				4EB5235F1CCDF66700B451DD /* Demo2.h */,
+				4EB523601CCDF66700B451DD /* Demo2.m */,
+				4EB5235C1CCDF61D00B451DD /* Demo.h */,
+				4EB5235D1CCDF61D00B451DD /* Demo.m */,
 				4EBD708C1CC7C53D006173D8 /* libc++.1.dylib */,
 				4EBD70841CC7B596006173D8 /* libc++.tbd */,
 				4E3969A31CC7417700B0A1EF /* RealmDemo */,
@@ -370,11 +380,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E3969AC1CC7417700B0A1EF /* ViewController.m in Sources */,
+				4EB523611CCDF66700B451DD /* Demo2.m in Sources */,
 				4E3969A91CC7417700B0A1EF /* AppDelegate.m in Sources */,
 				4EBD708B1CC7B737006173D8 /* Dog.m in Sources */,
 				4E3969A61CC7417700B0A1EF /* main.m in Sources */,
 				4EBD70881CC7B6FB006173D8 /* Personl.m in Sources */,
 				4E4600711CC921C7007E9300 /* UserPhoto.m in Sources */,
+				4EB5235E1CCDF61D00B451DD /* Demo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
